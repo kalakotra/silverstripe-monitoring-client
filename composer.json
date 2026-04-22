@@ -1,0 +1,20 @@
+{
+    "name": "kalakotra/silverstripe-monitoring-client",
+    "description": "SilverStripe 6 monitoring – passive data endpoint (pull model)",
+    "type": "silverstripe-vendormodule",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "silverstripe/framework": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kalakotra\\MonitoringClient\\": "src/"
+        }
+    },
+    "extra": {
+        "expose": []
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}

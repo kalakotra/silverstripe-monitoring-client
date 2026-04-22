@@ -1,0 +1,9 @@
+---
+Name: kalakotra-monitoring-client-routes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'silverstripe-monitoring/data': 'Kalakotra\MonitoringClient\Control\MonitoringDataController'
